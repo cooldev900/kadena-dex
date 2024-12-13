@@ -1,4 +1,4 @@
-(define-namespace "sushiswap")
+(namespace (read-msg 'ns))
 
 (module sushiswap-exchange-tokens GOVERNANCE
 
