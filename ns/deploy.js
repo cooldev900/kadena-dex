@@ -6,7 +6,7 @@ require('dotenv').config();
 const NETWORK_ID = process.env.NETWORK_ID || 'testnet04';
 const CHAIN_ID = process.env.CHAIN_ID || '0';
 const API_HOST = `https://api.testnet.chainweb.com/chainweb/0.0/${NETWORK_ID}/chain/${CHAIN_ID}/pact`;
-const CONTRACT_PATH = path.join(`./ns/ns.pact`);
+const CONTRACT_PATH = path.join(__dirname, 'contract.pact');
  
 const KEY_PAIR = {
   publicKey: process.env.ADMIN_PUBLIC_KEY || '2cf25d1956ae61d3e7f5e0d00ec01c238bd911a34dd89f0aa21c3cac1e9c1ff9',
