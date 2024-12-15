@@ -58,7 +58,7 @@
       ]
   
   
-      (defconst ADMIN-KS:keyset (read-keyset "sushiswap-contract-admin"))
+      (defconst ADMIN-KS:keyset (read-keyset "contract-admin"))
 
       (defcap GOVERNANCE ()
         (enforce-guard ADMIN-KS))
