@@ -1,6 +1,6 @@
-(namespace (read-msg 'ns))
+(namespace "n_333c3b4ae9d5b16f14c87269388739c16bae9e7c")
 
-(module sushiswap-exchange-tokens GOVERNANCE
+(module myswap-exchange-tokens GOVERNANCE
 
     @model
       [

@@ -6,6 +6,7 @@
   "scripts": {
     "deploy-exchange-token:testnet": "node deployExchangeTokens.js",
     "deploy-ns:testnet": "node ./ns/deployNS.js",
-    "deploy-fungible-util:testnet": "node ./fungible-util/deploy.js"
+    "deploy-fungible-util:testnet": "node ./fungible-util/deploy.js",
+    "deploy-exchante-tokens:testnet": "node ./exchange-tokens/deploy.js"
   }
 }
