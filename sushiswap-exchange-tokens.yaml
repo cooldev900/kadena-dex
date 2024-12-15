@@ -1,8 +1,0 @@
-codeFile: sushiswap-exchange-tokens.pact
-data:
-  sushiswap-contract-admin: ["2cf25d1956ae61d3e7f5e0d00ec01c238bd911a34dd89f0aa21c3cac1e9c1ff9"]
-  na: "sushiswap"
-keyPairs:
-  - public: 2cf25d1956ae61d3e7f5e0d00ec01c238bd911a34dd89f0aa21c3cac1e9c1ff9
-    secret: 0c762cbef8e0314fe6c9746625d6ae61204a5e5675c94e61c63b2e425cd74c23
-nonce: deploy sushiswap-exchange-tokens
