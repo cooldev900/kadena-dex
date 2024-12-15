@@ -1,5 +1,5 @@
 (define-namespace 
-    (ns.create-principal-namespace (read-keyset "sushiswap-contract-admin"))
-    (read-keyset "sushiswap-contract-admin" )
-    (read-keyset "sushiswap-contract-admin" )
+    (ns.create-principal-namespace (read-keyset "contract-admin"))
+    (read-keyset "contract-admin" )
+    (read-keyset "contract-admin" )
 )

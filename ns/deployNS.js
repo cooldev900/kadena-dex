@@ -24,7 +24,7 @@ async function deployContract() {
     keyPairs: KEY_PAIR,
     pactCode: pactCode,
     envData: {
-      "sushiswap-contract-admin": {
+      "contract-admin": {
           "keys": [KEY_PAIR.publicKey],
           "pred": "keys-all"
       },

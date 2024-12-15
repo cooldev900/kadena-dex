@@ -2,7 +2,7 @@
 
 (module fungible-util GOVERNANCE
 
-    (defconst ADMIN-KS:string "n_333c3b4ae9d5b16f14c87269388739c16bae9e7c.sushiswap-contract-admin")
+    (defconst ADMIN-KS:string "n_333c3b4ae9d5b16f14c87269388739c16bae9e7c.contract-admin")
   
     (defcap GOVERNANCE ()
       (enforce-guard ADMIN-KS))
