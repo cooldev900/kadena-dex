@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.7",
     "pact-lang-api": "^4.3.6"
+  },
+  "scripts": {
+    "deploy-exchange-token:testnet": "node deployExchangeTokens.js",
+    "deploy-ns:testnet": "node ./ns/deployNS.js",
+    "deploy-fungible-util:testnet": "node ./fungible-util/deploy.js"
   }
 }
