@@ -9,6 +9,7 @@
     "deploy:fungible-util": "node ./fungible-util/deploy.js",
     "deploy:exchante-tokens": "node ./exchange-tokens/deploy.js",
     "deploy:exchante-interface": "node ./interface/deploy.js",
-    "deploy:noop-callable": "node ./noop-callable/deploy.js"
+    "deploy:noop-callable": "node ./noop-callable/deploy.js",
+    "deploy:exchange": "node ./exchange/deploy.js"
   }
 }
