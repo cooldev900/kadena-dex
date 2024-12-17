@@ -4,9 +4,12 @@
     "pact-lang-api": "^4.3.6"
   },
   "scripts": {
-    "deploy-exchange-token:testnet": "node deployExchangeTokens.js",
-    "deploy-ns:testnet": "node ./ns/deploy.js",
-    "deploy-fungible-util:testnet": "node ./fungible-util/deploy.js",
-    "deploy-exchante-tokens:testnet": "node ./exchange-tokens/deploy.js"
+    "deploy:exchange-token": "node deployExchangeTokens.js",
+    "deploy:ns": "node ./ns/deploy.js",
+    "deploy:fungible-util": "node ./fungible-util/deploy.js",
+    "deploy:exchante-tokens": "node ./exchange-tokens/deploy.js",
+    "deploy:exchante-interface": "node ./interface/deploy.js",
+    "deploy:noop-callable": "node ./noop-callable/deploy.js",
+    "deploy:exchange": "node ./exchange/deploy.js"
   }
 }
