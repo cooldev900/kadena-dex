@@ -7,6 +7,7 @@
     "deploy-exchange-token:testnet": "node deployExchangeTokens.js",
     "deploy-ns:testnet": "node ./ns/deploy.js",
     "deploy-fungible-util:testnet": "node ./fungible-util/deploy.js",
-    "deploy-exchante-tokens:testnet": "node ./exchange-tokens/deploy.js"
+    "deploy-exchante-tokens:testnet": "node ./exchange-tokens/deploy.js",
+    "deploy-exchante-interface:testnet": "node ./interface/deploy.js"
   }
 }
